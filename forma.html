@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAKET_FORM</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <form>
+    <div>
+      <div>
+        Для публикации вашей статьи заполните,
+        пожалуйста, следующую форму:
+        </div>
+      <div class="firstName">
+        <label for="firstName">Название статьи:</label>
+        <input id="firstName" type="text" name="firstName">
+      </div>
+      <div class="lastName">
+        <label for="lastName">Рубрика:</label>
+        <select id="lastName" name="lastName"> 
+          <option value="1"selected>Программирование</option> 
+          <option value="2">Математика</option> 
+          <option value="3">Физика</option> 
+          <option value="4">История</option> 
+        </select>
+      </div>
+      <div class="container">
+        <label for="public">Публикация:</label>
+        <div class="radio">
+          <input id="radio-1" name="radio" type="radio">
+          <label for="radio-1" class="radio-label">на сайте</label>
+        </div>
+        <div class="radio">
+          <input id="radio-2" name="radio" type="radio">
+          <label  for="radio-2" class="radio-label">в журнале</label>
+        </div>
+        <div class="radio">
+          <input id="radio-3" name="radio" type="radio">
+          <label for="radio-3" class="radio-label">на сайте и в журнале</label>
+        </div>
+      </div>
+      <div class="checkbox">
+        <label for="checkbox-1">Разрешить комментарии:</label>
+        <input id="checkbox-1" type="checkbox" name="checkbox">
+      </div>
+      <div class="mytext">
+        <label for="mytext">Текст статьи:</label><br>
+        <textarea name="mytext"required></textarea>
+      </div>
+      <div>
+        <button>Опубликовать</button>
+      </div>
+  </form>
+</body>
+</html>
