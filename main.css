@@ -1,0 +1,46 @@
+div {
+  padding: 2px; 
+}
+
+.firstName input {
+  width: 345px;
+  margin-left: 58px;
+}
+.lastName select {
+  margin-left: 115px;
+}
+textarea {
+  width: 530px;
+}
+.radio {
+  display:inline-block;
+}
+.container label:first-child {
+  margin-right: 81px;
+}
+@media all and (max-width: 565px) {
+  .firstName label {
+    display: block;
+  }
+  .firstName input {
+    margin-left: 0;
+    }
+  .lastName select {
+    display: block;
+    margin-left: 0;
+    width: 100%;
+  }
+  input[type=text] { 
+    width: 97%;
+  }
+  textarea {
+    width: 98%;
+  }
+  select {
+    width: 99%; 
+  }
+  .radio {
+    display: block;
+    margin-left: -5px;
+  }
+}
